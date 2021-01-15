@@ -22,6 +22,7 @@
   
   body {
     margin: 0;
+    font-family: 'Rubik', sans-serif;
   }
   
   /**
@@ -40,6 +41,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: 'Xanh Mono', monospace;
   }
   
   /* Grouping content
