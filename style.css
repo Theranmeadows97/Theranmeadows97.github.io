@@ -1,0 +1,35 @@
+header{
+    background-color: #f6d55c;
+    padding: 1em;
+    border-radius:25px;
+  font-family:fantasy;
+}
+
+footer{
+  background-color:#ed553b;
+  border-radius:25px;
+  font-family:fantasy;
+}
+
+#photo{
+  float:right;
+  box-shadow:5px 5px 5px 5px;
+}
+
+h1, h2 {
+  text-align:center;
+  font-family:fantasy;
+}
+
+body{
+    margin: 0 auto;
+    font-size: 1.5em;
+    width: 900px;
+    background-color: grey;
+    font-family:fantasy;
+}
+
+footer{
+  text-align:center;
+  font-family:fantasy;
+}
