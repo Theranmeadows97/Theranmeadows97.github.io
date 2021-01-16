@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em){
+  h1, h2 {
+      text-align:center;
+      font-family: 'Xanh Mono', monospace;
+      font-size: 1.5rem;
+    }
+  
+   header, footer{
+      text-align:center;
+      font-family:fantasy;
+      border-radius: 10px;
+    }
+
+    #photo{
+      box-shadow:5px 5px 5px 5px;
+      width: 150px;
+      height: auto;
+      float: right;
+    }
+}
