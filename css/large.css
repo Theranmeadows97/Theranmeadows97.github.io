@@ -1,5 +1,4 @@
 header{
-    display: block;
     background-color: #f6d55c;
     padding: 1em;
     border-radius:25px;
@@ -7,26 +6,25 @@ header{
 }
 
 body{
-    margin: 0 auto;
-    font-size: 1.5em;
-    line-height: 1em;
-    width: 900px;
+    font-size: 16px;
+    line-height: 1.5em;
     color: black;
     background-color: grey;
     font-family: 'Rubik', sans-serif;
 }
 
 #photo{
-  float:right;
-  box-shadow:5px 5px 5px 5px;
+  margin-left: 6.5rem;
+  margin-right: 6.5em;
+  
+  
 }
 
 h1, h2 {
     line-height: 1em;
-  text-align:center;
+  text-align: center;
   font-family: 'Xanh Mono', monospace;
   font-size: 2.5rem;
-  margin: 0.67em 0;
 }
 
 main a {
@@ -39,14 +37,15 @@ main a:hover {
 }
 
 footer{
-    background-color:#ed553b;
     border-radius:25px;
     font-family:fantasy;
     text-align:center;
     font-family:fantasy;
     padding: 1em;
+    background-color: #ed553b;
   }
 
-  ul {
-    width: 500px;
-}
+  .lesson2{
+    display: grid;
+    grid-template-columns: 1fr;
+  }

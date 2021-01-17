@@ -1,38 +1,6 @@
-@media only screen and (min-width: 641px) {
-
-  h1 {
-    font-size: 2.5em;
-    margin: 0 auto;
-  }
-
-  main {
-    grid-template-columns: 1fr 1fr;
-    background-color: #F4F1DE;
-}
-
-  h2 {
-    font-size: 1.8em;
-  }
-
-  header{
-    padding: 1em;
-    flex-wrap: wrap;
-    
-  }
-
-  footer {
-   
-    height: 55px;
-  }
-
-  section:nth-child(1) {
-    grid-column: span 1;
-    margin-top: 20px;
-}
-
-  section:nth-child(2) {
-    grid-column: span 1;
-    margin-top: 20px;
-}
-  
+@media only screen and (min-width: 800px){
+    .lesson2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
 }
