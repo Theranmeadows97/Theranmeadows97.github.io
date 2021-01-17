@@ -1,0 +1,42 @@
+h1, h2 {
+line-height: 1em;
+text-align:center;
+font-family: 'Xanh Mono', monospace;
+font-size: 1rem;
+margin: 0.67em 0;
+}
+#photo{
+    box-shadow:5px 5px 5px 5px;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body{
+    font-size: 1em;
+    line-height: 1em;
+    color: black;
+    background-color: grey;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header{
+  display: block;
+  background-color: #f6d55c;
+  padding: 1em;
+  border-radius:25px;
+  font-family:fantasy;
+}
+
+
+footer{
+    background-color:#ed553b;
+    border-radius:25px;
+    font-family:fantasy;
+    text-align:center;
+    font-family:fantasy;
+    padding: 1em;
+  }
