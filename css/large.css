@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1000px) {
+  .lesson2{
+      grid-template-columns: 1fr 1fr;
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
+  
+}
