@@ -1,10 +1,13 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 600px) {
   .lesson2{
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   img {
       width: 100%;
       height: auto;
   }
+
+  
   
 }
