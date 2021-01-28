@@ -1,0 +1,70 @@
+h1, h2 h3{
+        line-height: 1em;
+        text-align:center;
+        font-family: 'Potta One', cursive;;
+        font-size: 2rem;
+        margin: 0.67em 0;
+        }
+        
+        body{
+            font-size: 1em;
+            line-height: 1em;
+            color: black;
+            background-color: #FFAE42;
+            font-family: 'Rubik', sans-serif;
+            margin: 0 auto;
+            width: 90%;
+    
+        }
+
+        body h3{
+            font-family: 'Potta One';
+            font-size: 2em;
+        }
+
+        #header{
+            font-family: 'Potta One', cursive;
+        }
+
+        #subheader{
+            font-family: 'Potta One';
+        }
+
+        #body{
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        header{
+          display: block;
+          background-color: #98D2EB;
+          padding: 1em;
+          border-radius:25px;
+          font-family:fantasy;
+    
+        }
+
+        .weather-nav ul li{
+            display: inline;
+            padding-right: 100px;
+            padding-left: 30px;
+            color: #ed6c1d; 
+        }
+
+        .weather-nav {
+            margin-left:auto;
+            margin-right: auto;
+            width: 100%;
+            font-size: 28px;
+            color: #ed6c1d; 
+            
+    
+        }
+        
+        footer{
+            background-color:#00AEEF;
+            border-radius:25px;
+            font-family:fantasy;
+            text-align:center;
+            font-family:fantasy;
+            padding: 1em;
+          }
