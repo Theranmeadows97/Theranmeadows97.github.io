@@ -70,6 +70,10 @@
             background-color: grey;
         }
 
+        nav ul.hide{
+            display: block;
+        }
+
         .weather-nav {
             margin-left:auto;
             margin-right: auto;

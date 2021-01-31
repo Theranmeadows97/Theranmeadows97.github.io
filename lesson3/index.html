@@ -16,11 +16,20 @@
     
     
   </head>
+
+  <script>
+  
+    function toggleMenu() {
+      document.getElementById("primaryNav").classList.toggle("hide");
+    }
+
+  </script>
+
   <body>
     <header>
       <nav  class="weather-nav" id="clearfix">
-        <button type="button" onclick="toggleMenu()"> &#9776; </button>
-        <ul>
+        <button type="button" onclick="toggleMenu()" > &#9776; </button>
+        <ul id="primaryNav" class="hide">
           <li><a href="index.html">Home</a></li>
           <li><a href="target-audience.html">Target Audience</a></li>
           <li><a href="typography.html">Typography</a></li>
