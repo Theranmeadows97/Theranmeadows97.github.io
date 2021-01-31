@@ -1,5 +1,4 @@
-@media only screen and (min-width: 32.5em) {
-    h1, h2 h3{
+h1, h2 h3{
         line-height: 1em;
         text-align:center;
         font-family: 'Potta One', cursive;;
@@ -11,7 +10,7 @@
             font-size: 1em;
             line-height: 1em;
             color: black;
-            background-color: #FFAE42;
+            background-color: red;
             font-family: 'Rubik', sans-serif;
             margin: 0 auto;
             width: 90%;
@@ -49,6 +48,22 @@
             padding-right: 100px;
             padding-left: 30px;
             color: #ed6c1d; 
+            padding: 0;
+            margin: 0; 
+        }
+
+        nav ul li a{
+            display: block;
+            padding: .8rem 2%;
+            text-decoration: none;
+            color: yellow;
+            border-top: 1px solid orange;
+        
+
+        }
+
+        nav ul li a:hover{
+            background-color: grey;
         }
 
         .weather-nav {
@@ -56,9 +71,20 @@
             margin-right: auto;
             width: 100%;
             font-size: 28px;
-            color: #ed6c1d; 
+            color: #ed6c1d;
+            background-color: blue;
+            list-style-type: none; 
             
     
+        }
+
+        nav button {
+            margin: .2rem 2%;
+            background-color: grey;
+            border: none;
+            font-size: 1.6rem;
+            color: #555;
+            border-radius: 5px;
         }
         
         footer{
@@ -70,5 +96,8 @@
             padding: 1em;
           }
 
-
-        }
+          #clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+          }
