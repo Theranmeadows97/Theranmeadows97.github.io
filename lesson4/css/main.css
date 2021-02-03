@@ -58,6 +58,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     display: flex;
+    width: 100%;
 }
 
 nav ul li a{
