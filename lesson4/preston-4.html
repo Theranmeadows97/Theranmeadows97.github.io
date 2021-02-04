@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-      <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/main.css">
-        <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/medium.css">
-        <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/large.css">
-    </head>
-   <body>
-    <header>
-      
-     <h1>Weather Alert</h1>
-     
-     <h3>Bring Your Own Sunshine</h3>
-     <img src="images/weather-alert-icon.png" alt="Weather Alert Icon">
-    </header>
-    <nav class="clearfix">
-        <button type="button" onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active" ><a href="preston-4.html">Home</a></li>
-            <li><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+  <head>
+    <title>Preston Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/main.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/medium.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson4/css/large.css">
+  </head>
+  <body>
+   <header>
+    <h1>Weather Alert</h1>
+    <h3>Bring Your Own Sunshine</h3>
+    <img src="images/weather-alert-icon.png" alt="Weather Alert Icon">
+  </header>
+  <nav class="clearfix">
+    <button type="button" onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li class="active" ><a href="preston-4.html">Home</a></li>
+      <li><a href="#">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
     </nav>
     <main>
-        <h2>Preston</h2>
-        <div>Hero w/ Weather Summary</div>
-        <div>5 Day Forecast</div>
-        <div>Articles</div>
-        <div>Contact Information</div>
-
+      <h2>Preston</h2>
+      <div>Hero w/ Weather Summary</div>
+      <div>5 Day Forecast</div>
+      <div>Articles</div>
+      <div>Contact Information</div>
     </main>
     <script>
-  
         function toggleMenu() {
           document.getElementById("primaryNav").classList.toggle("hide");
         }
-    
-      </script>
+    </script>
     <footer>
-        <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
+      <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
       <p>Last updated:<span id="demo"></span></p><script>document.getElementById("demo").innerHTML=document.lastModified;</script>
     </footer>
    </body>
