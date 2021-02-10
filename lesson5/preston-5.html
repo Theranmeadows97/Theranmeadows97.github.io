@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/theranmeadows97.github.io/lesson5/css/large.css">
   </head>
   <body>
+    <div id="banner" style="display: block;"></div>
    <header>
     <h1>Weather Alert</h1>
     <h3>Bring Your Own Sunshine</h3>
@@ -24,9 +25,9 @@
   <nav class="clearfix">
     <button type="button" onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
-      <li class="active" ><a href="preston-5.html">Home</a></li>
-      <li><a href="/theranmeadows97.github.io/lesson5/preston-5.html">Preston</a></li>
-      <li><a href="#">Soda Springs</a></li>
+      <li><a href="/theranmeadows97.github.io/index.html">Home</a></li>
+      <li class="active"><a href="/theranmeadows97.github.io/lesson5/preston-5.html">Preston</a></li>
+      <li ><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a href="#">Storm Center</a></li>
       <li><a href="#">Gallery</a></li>
@@ -149,11 +150,16 @@
     <script>
         function toggleMenu() {
           document.getElementById("primaryNav").classList.toggle("hide");
-        }
+        
+        }        
     </script>
+    
     <footer>
       <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
-      <p>Last updated:<span id="demo"></span></p><script>document.getElementById("demo").innerHTML=document.lastModified;</script>
+      <p>Date:<span id="currentDate"></span><span id="currentYear" ></span> </p>
+      
     </footer>
+
+    <script src="/theranmeadows97.github.io/lesson5/js/date.js" ></script>
    </body>
 </html>
