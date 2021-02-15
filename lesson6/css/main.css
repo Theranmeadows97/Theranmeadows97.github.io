@@ -1,0 +1,183 @@
+header{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    padding: 7px;
+    background-color: #98D2EB;
+    color: black;
+
+}
+
+header h1{
+    display: block;
+    align-items: center;
+    color: #F4F1DE;
+    font-size: 5rem;
+    font-family: 'Potta One', cursive;
+    background-color: blue;
+    color: yellow;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+header h3{
+    display: block;
+    align-items: center;
+    color:yellow;
+    font-size: 2rem;
+    font-family: 'Potta One', cursive;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+header img{
+    height: 150px;
+    width: auto;
+    padding-right: 10px; 
+}
+
+nav button{
+    margin: .3rem 2%;
+    background-color: yellow;
+    border: none;
+    font-size: 1.6rem;
+    color: grey;
+    justify-content: center;
+}
+
+nav{
+    background-color:  blue;
+    font-family: fantasy, sans-serif;
+    margin: auto;
+    font-size: 2rem;
+    
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: yellow;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+nav ul li a:active{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+nav ul li.active a{
+    background-color: orange;
+    color: blue;
+
+}
+
+nav ul li a:hover{
+    background-color: orange;
+
+}
+
+
+
+nav ul.hide{
+    display: none;
+}
+
+body{
+    background-color: #FFAE42;
+    text-align: center;
+    display: block;
+}
+
+body h2{
+    font-family: "Potta One", Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+body div{
+    display: block;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: orange;
+    padding: 10px;
+    margin:10px auto;
+    padding: 15px;
+    width: 80%;
+    
+}
+
+.first img {
+    width: 100%;
+    height: auto;
+    border-style: dashed;
+    border-color: black;
+}
+
+.summary {
+    top: 20px;
+    left: 20px;
+    font-size: .8em;
+    font-family: fantasy;
+	padding: 5px;
+    color: black;
+    margin: 10px;
+}
+
+.second {
+    display: none;
+  }
+
+.third img{
+    display: none;
+}
+
+.icon {
+    width: 35px;
+    padding: 10px;
+  }
+
+  .fourth {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .contact {
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
+  }
+  
+
+
+main {
+    margin: auto;
+    padding: 15px;
+  }
+
+footer{
+    text-align: center;
+    background-color: #98D2EB;
+    font-family: fantasy;
+    font-size: 1.5rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

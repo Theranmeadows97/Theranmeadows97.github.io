@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Preston Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson5/css/main.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson5/css/medium.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson5/css/large.css">
+  </head>
+  <body>
+    <div id="banner" style="display: block;"></div>
+   <header>
+    <h1>Weather Alert</h1>
+    <h3>Bring Your Own Sunshine</h3>
+    <img src="images/weather-alert-icon.png" alt="Weather Alert Icon">
+  </header>
+  <nav class="clearfix">
+    <button type="button" onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="/theranmeadows97.github.io/index.html">Home</a></li>
+      <li class="active"><a href="/theranmeadows97.github.io/lesson6/preston-6.html">Preston</a></li>
+      <li ><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+    </nav>
+    <main>
+      <h2>Preston</h2>
+      <div class="first">
+        <section class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: Sunny</p>
+          <p>High: 80 °F</p>
+          <p>Wind Chill: °F</p>
+          <p>Humidity: 50%</p>
+          <p>Wind Speed: 10 mph</p>
+        </section>
+
+        <picture>
+          <source media="(max-width: 800px)" srcset="/theranmeadows97.github.io/lesson6/images/Small.jpeg">
+            <source media="(max-width: 1001px)" srcset="/theranmeadows97.github.io/lesson6/images/Medium.jpeg">
+            <img class="hero-large" src="/theranmeadows97.github.io/lesson6/images/large.jpeg" alt="sunny day">
+        </picture>
+      </div>
+
+
+
+      <div class="second">
+        <h3>5 Day Forecast</h3>
+				<table id="forecast">
+          <thead>
+              <tr id="weekly-days">
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                      <img class="forecast-pic" src="/theranmeadows97.github.io/lesson5/images/day_clear.png" alt="Monday Weather">
+                      <br>
+                      <span id="day1">81 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-pic" src="/theranmeadows97.github.io/lesson5/images/night_partial_cloud.png" alt="Tuesday Weather">
+                      <br>
+                      <span id="day2">63 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-pic" src="/theranmeadows97.github.io/lesson5/images/rain.png" alt="Wednesday Weather">
+                      <br>
+                      <span id="day3">55 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-pic" src="/theranmeadows97.github.io/lesson5/images/day_rain_thunder.png" alt="Thursday Weather">
+                      <br>
+                      <span id="day4">60 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-pic" src="/theranmeadows97.github.io/lesson5/images/day_partial_cloud.png" alt="Friday Weather">
+                      <br>
+                      <span id="day5">75 °F</span>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+
+
+      </div>
+
+
+
+      <div class="third">
+        <img src="/theranmeadows97.github.io/lesson5/images/rsz_1rsz_2pexels-jeshootscom-442599.jpg" alt="picnic">
+        <h3>Crazy Weather Week</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+          aute irure dolor in reprehenderit in voluptate velit esse cillum
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Pulvinar fames non phasellus dignissim imperdiet sociosqu magna dictum 
+          gravida, tincidunt mattis mauris felis ante montes rhoncus semper, iaculis 
+          nisl facilisis malesuada maecenas pharetra metus risus. Ultrices nunc aptent 
+          lacus sodales sagittis amet urna viverra ut, elementum habitant at congue 
+          rhoncus ultricies nostra vitae bibendum, sed libero vulputate mus dictumst 
+          felis imperdiet enim. Quis porta turpis dictumst id venenatis fermentum non 
+          vestibulum, imperdiet purus eget iaculis magnis vulputate congue donec, ultrices
+           scelerisque consectetur hac inceptos fringilla adipiscing. Nunc curae praesent
+            turpis molestie commodo torquent sem fringilla malesuada blandit, nec porta 
+            consequat litora risus nullam viverra natoque quisque cras vulputate, vitae
+             himenaeos sociosqu facilisis vehicula cum dui a class. Vitae nulla parturient
+              integer turpis fusce senectus nascetur tempus cum natoque quam tristique dictumst 
+              congue penatibus, lobortis habitasse malesuada sit dictum aenean hendrerit pretium 
+              bibendum diam consequat cubilia himenaeos. Aliquam adipiscing nunc vehicula pulvinar
+               risus vulputate curabitur nisl egestas vitae mus, non ipsum feugiat diam vestibulum 
+               nullam dapibus in turpis sodales sociosqu massa, at auctor dolor imperdiet condimentum
+                montes nulla nam posuere arcu.
+          </p>
+
+      </div>
+      <div class="fourth"> 
+        <img src="/theranmeadows97.github.io/lesson5/images/1665260_ID_Preston.png" alt="">
+        <section class="contact">
+        <h3>Contact Information</h3>
+        <p><strong>Weather Alert</strong></p>
+        <p><i style="font-size:24px" class="fa">&#xf041;</i> 10417 N 186</p>
+        <p>Waddell, AZ 85355</p>
+        <p><i style="font-size:24px" class="fa">&#xf095;</i> 888-999-8888</p>
+        <p><i style="font-size:24px" class="fa">&#xf0e0;</i> getinfo@weatheralert.com</p>
+        <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="/theranmeadows97.github.io/lesson5/images/facebook.png" alt="Facebook icon"></a>
+        <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="/theranmeadows97.github.io/lesson5/images/Youtube.png" alt="youtube icon"></a>
+        <a class="socialmedia" target="_blank" href="https://www.linkedin.com"><img class="icon" src="/theranmeadows97.github.io/lesson5/images/linkedin.png" alt="linkedin icon"></a>
+      </section>
+
+      </div>
+
+
+    </main>
+    <script>
+        function toggleMenu() {
+          document.getElementById("primaryNav").classList.toggle("hide");
+        
+        }        
+    </script>
+    
+    <footer>
+      <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
+      <p>Date:<span id="currentDate"></span><span id="currentYear" ></span> </p>
+      
+    </footer>
+
+    <script src="/theranmeadows97.github.io/lesson5/js/date.js" ></script>
+   </body>
+</html>
