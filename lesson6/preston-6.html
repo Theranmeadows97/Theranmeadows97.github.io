@@ -4,6 +4,7 @@
     <title>Preston Home Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="weather alert site">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
@@ -24,6 +25,7 @@
   </header>
   <nav class="clearfix">
     <button type="button" onclick="toggleMenu()">&#9776;</button>
+    <script src="js/toggleMenu.js"></script>
     <ul id="primaryNav" class="hide">
       <li><a href="/theranmeadows97.github.io/index.html">Home</a></li>
       <li class="active"><a href="/theranmeadows97.github.io/lesson6/preston-6.html">Preston</a></li>
@@ -39,19 +41,11 @@
         <section class="summary">
           <h3>Weather Summary</h3>
           <p>Currently: Cloudy</p>
-          <p>High: 
-           <span id="temp">30</span>
-           °F
-         </p>
-          <p>Wind Chill: 
-           <span id="windchill"></span>
-           °F
-         </p>
-         <p>Humidity: 40%</p>
-         <p>Wind Speed: 
-           <span id="windspeed">11</span>
-            mph
-         </p> 
+          <p>High: <span id="temp">30</span>°F</p>
+          <p>Wind Chill: <span id="windchill"></span>°F</p>
+          <p>Humidity: <span id="humidity">68</span>%</p>
+         <p>Wind Speed: <span id="windspeed">11</span> mph</p> 
+         <script src="js/windchill.js"></script>
        </section>
 
         <picture>
@@ -161,12 +155,6 @@
 
 
     </main>
-    <script>
-        function toggleMenu() {
-          document.getElementById("primaryNav").classList.toggle("hide");
-        
-        }        
-    </script>
     
     <footer>
       <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
@@ -174,6 +162,6 @@
       
     </footer>
 
-    <script src="/theranmeadows97.github.io/lesson5/js/date.js" ></script>
+    
    </body>
 </html>
