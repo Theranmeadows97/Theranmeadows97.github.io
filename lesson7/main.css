@@ -1,10 +1,27 @@
-picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body{
+    background-color: grey;
 }
 
+body img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top:20px;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
 img{
-    width: 300px;
-    height: 400px;
+    display: block;
+    margin-top: auto;
+    margin: auto;
+    justify-items: center;
+    filter: blur(0px);
+}
+img[data-src]{
+    filter: blur(3px);
+    width: 500px;
+    height: 500px;
 }
