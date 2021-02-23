@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Preston Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="weather alert site">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson7/css/main.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson7/css/medium.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson7/css/large.css">
+
+  </head>
+  <body>
+    <div id="banner" style="display: block;"></div>
+   <header>
+    <h1>Weather Alert</h1>
+    <h3>Bring Your Own Sunshine</h3>
+    <img src="/theranmeadows97.github.io/lesson4/images/weather-alert-icon.png" alt="Weather Alert Icon">
+  </header>
+  <nav class="clearfix">
+    <button type="button" onclick="toggleMenu()">&#9776;</button>
+    <script src="js/toggleMenu.js"></script>
+    <ul id="primaryNav" class="hide">
+      <li><a href="/theranmeadows97.github.io/index.html">Home</a></li>
+      <li ><a href="/theranmeadows97.github.io/lesson6/preston-6.html">Preston</a></li>
+      <li ><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li class="active"><a href="#">Gallery</a></li>
+    </ul>
+    </nav>
+    <main>
+        <div id="gallery-pics">
+            <figure>
+                <img src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/Beach.jpg" alt="Beach">
+                <figcaption>Sunny Day at the Beach</figcaption>
+            </figure>
+
+            <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/cloudy_Ocean.jpg" alt="cloudy ocean">
+              <figcaption>A Cloudy Ocean</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/Frozen_lake.jpg" alt="frozen lake">
+              <figcaption>A Frozen Lake</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/lightning.jpg" alt="lightning">
+              <figcaption>A Lightning Storm</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/Rain_Street.jpg" alt="rainy street">
+              <figcaption>Rainy Streets</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/rainbow.jpg" alt="rainbow">
+              <figcaption>Cloudy Skies with Rainbow</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/snow_Street.jpg" alt="snowy street">
+              <figcaption>Snow in the Street</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/Sunny_Forest.jpg" alt="sunny forest">
+              <figcaption>Sun Beams in the Forest</figcaption>
+          </figure>
+
+          <figure>
+              <img alt="" src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/placeholder.png" data-src="/theranmeadows97.github.io/lesson7/images/Gallery_Page/Sunny_Houses.jpg" alt="sunny houses">
+              <figcaption>A Sunny day on a Hill</figcaption>
+          </figure>
+        </div>
+      
+
+
+    </main>
+    
+    <footer>
+      <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
+      <p>Date:<span id="currentDate"></span><span id="currentYear" ></span> </p>
+      
+    </footer>
+
+   <script src="script.js"></script> 
+   </body>
+</html>
