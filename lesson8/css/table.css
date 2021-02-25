@@ -13,15 +13,15 @@ table, th, td {
     border-collapse: collapse;
     padding: .5em;
 }
-.title{
+thead tr:nth-child(1){
     font-size: 1.5em;
 }
 
-.title, tfoot{
+thead tr:nth-child(1), tfoot{
     background-color: #7fb9c2;
 }
 
-.subtitles{
+thead tr:nth-child(2){
     background-color: #628ca6;
     color: white;
 
