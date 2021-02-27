@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Preston Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="weather alert site">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson8/css/main.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson8/css/medium.css">
+    <link rel="stylesheet" href="/theranmeadows97.github.io/lesson8/css/large.css">
+
+  </head>
+  <body>
+    <div id="banner" style="display: block;"></div>
+   <header>
+    <h1>Weather Alert</h1>
+    <h3>Bring Your Own Sunshine</h3>
+    <img src="/theranmeadows97.github.io/lesson4/images/weather-alert-icon.png" alt="Weather Alert Icon">
+  </header>
+  <nav class="clearfix">
+    <button type="button" onclick="toggleMenu()">&#9776;</button>
+    <script src="js/toggleMenu.js"></script>
+    <ul id="primaryNav" class="hide">
+      <li><a href="/theranmeadows97.github.io/index.html">Home</a></li>
+      <li ><a href="/theranmeadows97.github.io/lesson6/preston-6.html">Preston</a></li>
+      <li ><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="/theranmeadows97.github.io/lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+    </nav>
+    <main>
+        <h2 class="heading">Report a Storm Emergency</h2>
+        <form method="GET" action="thanks.html">
+           <fieldset>
+             <legend>Your Information</legend>
+               <label class="user-info">Name*<input type="text" name="fullname" title="At least 5 letters are needed" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+               </label>
+               <label class="user-info">Phone*<input type="tel" name="phone" title="Please enter a valid 10 digit number" placeholder="123-456-7890" required>
+               </label>
+               <label class="user-info">Zip Code*<input type="number" name="zipcode" required>
+               </label>
+               <label class="user-info">Email*<input type="email" name="email" placeholder="report@weatheralert.com">
+               </label>  
+           </fieldset>
+   
+           <fieldset>
+               <legend>Storm Information</legend>
+                 <label class="storm">
+                 Storm Date: <input type="date" name="date">
+                 </label>
+                 
+                 <label class="storm">
+                 Storm Type: <input list="storm_type" name="type">
+                   <datalist id="storm_type">
+                     <option value="Flash Flood"></option>
+                     <option value="Hail"></option>
+                     <option value="Hurricane"></option>
+                     <option value="Thunderstorm"></option>
+                     <option value="Tornado"></option>
+                   </datalist>
+                 </label>
+
+                 <label class="storm">
+                   Storm Severity: <input type="range" name="severity" min="1" max="10" step="1" value="1" oninput="severityLevel(this.value)" onchange="adjustSeverity(this.value)">
+                   <span id="severity">1</span>
+                 </label>
+
+                 <label class="storm">
+                   Storm Region: <select name="stormregion" id="storm_region">
+                   <option selected disabled>Select the Region.</option>
+                   <option value="Preston">Preston</option>
+                   <option value="Soda_Springs">Soda Springs</option>
+                   <option value="Fish_Haven">Fish Haven</option>
+                   </select>
+                 </label>
+             </fieldset>
+   
+             <fieldset>
+               <legend>Additional Information</legend>
+                 <div>User in Danger Level:</div>
+                   <label class="options"><input type="radio" name="level" value="yes">
+                   <span class="options">Yes</span>
+                   </label>
+
+                   <label class="options"><input type="radio" name="level" value="maybe">
+                   <span class="options">Maybe</span>
+                   </label>
+
+                   <label class="options"><input type="radio" name="level" value="no">
+                   <span class="options">No</span>
+                   </label>
+
+                   <label class="top">Comments: </label>
+                   <textarea name="comments" id="comments">
+                   </textarea>
+             </fieldset>
+   
+             <input class="Sbtn" type="submit" value="Report this Storm">
+           </form> 
+       </main>
+    
+    <footer>
+      <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
+      <p>Date:<span id="currentDate"></span><span id="currentYear" ></span> </p>
+      
+    </footer>
+
+   <script src="/theranmeadows97.github.io/lesson8/js/script.js"></script>
+   <script src="/theranmeadows97.github.io/lesson8/js/date.js"></script>  
+   <script src="/theranmeadows97.github.io/lesson8/js/toggleMenu.js"></script> 
+   <script src="/theranmeadows97.github.io/lesson8/js/windchill.js"></script> 
+   <script src="/theranmeadows97.github.io/lesson8/js/rating.js"></script> 
+   </body>
+</html>
