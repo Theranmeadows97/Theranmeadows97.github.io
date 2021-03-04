@@ -1,9 +1,14 @@
 header, footer, h2, p {
     text-align: center;
 }
+
+main{
+    margin: 0;
+}
 .cards{
     display: grid;
     grid-template-columns: 1fr;
+    width: 100%;
     margin: auto;
 }
 section{
@@ -14,6 +19,8 @@ img{
     margin: 10px auto;
     display:block;
     border-radius: 10px;
+    width: 80%;
+    height: auto;
 }
 
 @media only screen and (min-width: 35em) {
@@ -23,12 +30,12 @@ img{
     }
 }
 
-@media only screen and (min-width: 50em) {
+/* @media only screen and (min-width: 50em) {
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
+} */
 
 @media only screen and (min-width: 64rem) {
     .cards{
