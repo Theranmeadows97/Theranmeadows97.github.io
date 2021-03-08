@@ -1,0 +1,125 @@
+header{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    padding: 7px;
+    background-color: #98D2EB;
+    color: black;
+
+}
+
+header h1{
+    display: block;
+    align-items: center;
+    color: #F4F1DE;
+    font-size: 5rem;
+    font-family: 'Potta One', cursive;
+    background-color: blue;
+    color: yellow;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+header h3{
+    display: block;
+    align-items: center;
+    color:yellow;
+    font-size: 2rem;
+    font-family: 'Potta One', cursive;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+header img{
+    height: 150px;
+    width: auto;
+    padding-right: 10px; 
+}
+
+nav button{
+    margin: .3rem 2%;
+    background-color: yellow;
+    border: none;
+    font-size: 1.6rem;
+    color: grey;
+    justify-content: center;
+}
+
+nav{
+    background-color:  blue;
+    font-family: fantasy, sans-serif;
+    margin: auto;
+    font-size: 2rem;
+    
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: yellow;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+nav ul li a:active{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+nav ul li.active a{
+    background-color: orange;
+    color: blue;
+
+}
+
+nav ul li a:hover{
+    background-color: orange;
+
+}
+
+nav ul.hide{
+    display: none;
+}
+
+body{
+    background-color: #FFAE42;
+    display: block;
+}
+
+  
+
+
+main {
+    margin: auto;
+    padding: 15px;
+  }
+
+footer{
+    text-align: center;
+    background-color: #98D2EB;
+    font-family: fantasy;
+    font-size: 1.5rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+  
+  
+
+
