@@ -97,12 +97,27 @@ body{
     display: block;
 }
 
-  
-
 
 main {
     margin: auto;
     padding: 15px;
+  }
+
+  .icon {
+    width: 35px;
+    padding: 10px;
+  }
+
+  .fourth {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .contact {
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
   }
 
 footer{
@@ -117,6 +132,40 @@ footer{
     display: table;
     clear: both;
 }
+
+.cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  
+  .cards section {
+    background-color: #98D2EB;
+    margin: auto;
+    border: 5px dotted black;
+    border-radius: 10px;
+  }
+
+  .cards section p, h2, h4{
+    font-family: 'Potta One', cursive;
+  }
+
+  .cards section h2{
+      text-decoration: underline;
+  }
+  
+  .cards section img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  #wireframelink {
+      text-align: center;
+  }
+
 
 
   

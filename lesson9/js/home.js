@@ -27,17 +27,17 @@ fetch(requestURL)
       currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
       averageRainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + ' ' + 'inches';
       yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-      image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
+      image.setAttribute('src', '/theranmeadows97.github.io/lesson9/images/' + towns[i].photo);
       image.setAttribute('alt', towns[i].name);
       information.setAttribute('id', 'information');
 
       card.appendChild(information);
-      information.appendChild(image);
+      card.appendChild(image);
       information.appendChild(name);
       information.appendChild(motto);
+      information.appendChild(yearFounded);
       information.appendChild(currentPopulation);
       information.appendChild(averageRainfall);
-      information.appendChild(yearFounded);
       
 
       document.querySelector('div.cards').appendChild(card);

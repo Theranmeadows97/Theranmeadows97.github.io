@@ -22,6 +22,20 @@
         padding: .8rem 1rem;
     }
 
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+      }
+    
+      .cards section:nth-child(odd) img {
+        grid-column: 1;
+      }
+    
+      .cards section:nth-child(odd) #information{
+        grid-column: 2;
+        grid-row: 1;
+      }
 
       
 }
