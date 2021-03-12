@@ -1,0 +1,115 @@
+@media only screen and (min-width: 35em){
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+
+    .summary {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: .8em;
+        font-family: fantasy;
+        background: yellow;
+        opacity: .7;
+        padding: 5px;
+        color: black;
+        margin: 10px;
+    }
+    
+    .first {
+        position: relative;
+    }
+
+    .second{
+        display: block;
+        text-align: center;
+        color: black;
+    }
+
+    #weekly-forecast {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .forecast, .weekdays {
+      border: 5px dotted black;
+    }
+
+    .weekdays {
+      border: 5px solid black;
+    }
+
+    #weekly-forecast img{
+      width: 50%;
+    }
+
+    #day-1, #day-2, #day-3, #day-4, #day-5, #temp-1, #temp-2, #temp-3, #temp-4, #temp-5 {
+      font-family: fantasy;
+      font-size: 1.5em;
+    }
+
+    .forecast h3{
+      text-align: center;
+      border-bottom: 5px solid black;
+      font-family: fantasy;
+      font-size: 2em;
+    }   
+
+    .third img{
+        display: block;
+        float: right;
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    }
+
+
+  .fourth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+  }
+
+  .contact {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon {
+    width: 35px;
+    padding: 10px;
+  }
+  
+  .fourth img{
+    grid-column: 1/2;
+    grid-row: 1;
+    height: auto;
+    margin: auto;
+  }
+
+
+      
+}
