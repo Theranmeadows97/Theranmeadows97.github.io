@@ -145,6 +145,10 @@ body div{
     display: none;
 }
 
+.third{
+    border: dotted 5px black;
+}
+
 #weekly-forecast  {
     display: none;
 }
@@ -158,6 +162,13 @@ body div{
     display: grid;
     grid-template-columns: 1fr;
     padding: 15px;
+    border: dotted 5px black;
+  }
+
+  .events{
+      text-align: center;
+      font-family: fantasy;
+      border: dotted 5px black;
   }
 
   .contact {

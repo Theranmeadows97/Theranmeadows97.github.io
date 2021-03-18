@@ -6,12 +6,11 @@
    }
 
    #weekly-forecast {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
-    height: auto;
-    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
   }
+
+ 
 
 
 }

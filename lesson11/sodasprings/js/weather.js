@@ -1,4 +1,4 @@
-const APIURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=d9b4b3f8ea56e0a5489474e0d3ba6321";
+const APIURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=d9b4b3f8ea56e0a5489474e0d3ba6321";
 
 fetch(APIURL)
  .then((response) => response.json())
@@ -24,7 +24,7 @@ let windchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windspeed, .16)) + (
 document.getElementById('windchill').innerHTML = windchill;
 
 /*JSON for Five day forecast */
-const APIURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d9b4b3f8ea56e0a5489474e0d3ba6321"
+const APIURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=d9b4b3f8ea56e0a5489474e0d3ba6321"
 fetch(APIURL_forecast)
    .then(response => response.json())
    .then((jsObject) => {
