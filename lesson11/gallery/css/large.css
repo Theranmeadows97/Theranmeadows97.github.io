@@ -1,0 +1,15 @@
+@media only screen and (min-width: 64rem){
+    
+   nav ul li a {
+       padding: .6rem 1rem;
+
+   }
+
+#gallery-pics{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery-pics figure:hover{
+    box-shadow: 0 0 50px black;
+}
+
+}
