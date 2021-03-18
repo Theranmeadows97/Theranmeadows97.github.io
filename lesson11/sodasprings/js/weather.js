@@ -9,11 +9,10 @@ fetch(APIURL)
    document.getElementById('temp').innerHTML = Math.round(town.main.temp);
    document.getElementById('humidity').innerHTML = town.main.humidity;
    document.getElementById('windspeed').innerHTML = Math.round(town.wind.speed);
-});
 
-/* JSON for Windchill */
-const temp = document.getElementById('temp').innerHTML;
-const windspeed = document.getElementById('windspeed').innerHTML;
+   /* JSON for Windchill */
+const temp = parseFloat(document.getElementById('temp').innerHTML);
+const windspeed = parseFloat(document.getElementById('windspeed').innerHTML);
 
 let windchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windspeed, .16)) + (0.4275 * temp * Math.pow(windspeed, .16));
   if (temp <= 50 && windspeed > 3) {
@@ -22,6 +21,9 @@ let windchill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(windspeed, .16)) + (
      windchill = "N/A";
   }
 document.getElementById('windchill').innerHTML = windchill;
+});
+
+
 
 /*JSON for Five day forecast */
 const APIURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=d9b4b3f8ea56e0a5489474e0d3ba6321"

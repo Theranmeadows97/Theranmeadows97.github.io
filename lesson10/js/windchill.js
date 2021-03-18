@@ -1,4 +1,4 @@
-function windchill(){
+/* function windchill(){
    const temp = parseFloat(document.getElementById('temp').innerHTML);
    const windspeed = parseFloat(document.getElementById('windspeed').innerHTML);
    
@@ -10,4 +10,4 @@ function windchill(){
      }
    document.getElementById('windchill').innerHTML = windchill;
 }
-
+ */
