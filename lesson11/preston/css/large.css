@@ -6,8 +6,11 @@
    }
 
    #weekly-forecast {
-    margin: 0 auto;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    height: auto;
+    padding: 0;
   }
 
  

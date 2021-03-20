@@ -48,9 +48,10 @@
     #weekly-forecast {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      width: 100%;
-      height: auto;
-      padding: 5px;
+      grid-gap: 10px;
+      margin: 0 auto;
+      justify-content:center;
+      padding:0;
     }
 
     .forecast, .weekdays {
@@ -67,7 +68,7 @@
 
     #day-1, #day-2, #day-3, #day-4, #day-5, #temp-1, #temp-2, #temp-3, #temp-4, #temp-5 {
       font-family: fantasy;
-      font-size: 1.5em;
+      font-size: 1em;
     }
 
     .forecast h3{
