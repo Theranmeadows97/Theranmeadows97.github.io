@@ -66,9 +66,9 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['directory'];
+    const directory = jsonObject['directory'];
 
-    for (let i = 0; i < directory-companies.length; i++ ) {
+    for (let i = 0; i < directory.length; i++ ) {
       let card = document.createElement('section');
       let name = document.createElement('h2');
       let address = document.createElement('p');
