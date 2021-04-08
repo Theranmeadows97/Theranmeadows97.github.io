@@ -1,4 +1,4 @@
-const requestURL = '/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/directory.json';
+const requestURL = 'https://theranmeadows97.github.io/ChamberofCommerce/directory.json';
 
 fetch(requestURL)
   .then(function (response) {
