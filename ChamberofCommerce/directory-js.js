@@ -4,7 +4,7 @@
     "address": "13549 W Willow Ave, Surprise, AZ 85379",
     "phone": "(623) 900-7335",
     "email": "info@seacapackaging.com",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/seacalogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/seacalogo.png",
     "website":"https://www.seattlebox.com/Plastic/seaca_plastic_packaging/"
   },
   {
@@ -12,7 +12,7 @@
     "address": "13600 W Sweetwater Ave, Surprise, AZ",
     "phone": "(866) 759-6628",
     "email": "customerservice@trimaco.com",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/trimacologo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/trimacologo.png",
     "website":"https://trimaco.com/"
   },
   {
@@ -20,7 +20,7 @@
     "address": "12425 W Bell Rd. Suite 107 Surprise, AZ 85378",
     "phone": "(623) 792-8888",
     "email": "wp.chen@magqu.com",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/magqulogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/magqulogo.png",
     "website":"https://www.magqu.us/"
   },
   {
@@ -28,7 +28,7 @@
     "address": "17300 N Dysart Rd, Surprise, AZ 85378",
     "phone": "(623) 233-3000",
     "email": "intake2@destinysprings.com",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/destinylogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/destinylogo.png",
     "website":"https://www.destinyspringshealthcare.com/"
   },
   {
@@ -36,7 +36,7 @@
     "address": "14321 W Bell Rd, Surprise, AZ 85374",
     "phone": "(800) 786-1000",
     "email": "https://www.in-n-out.com/contact",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/destinylogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/destinylogo.png",
     "website":"https://www.in-n-out.com/"
   },
   {
@@ -44,7 +44,7 @@
     "address": "15261 N Reems Rd #104, Surprise, AZ 85379",
     "phone": "480-814-1681",
     "email": "https://bosadonutsaz.com/contact/",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/destinylogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/destinylogo.png",
     "website":"https://bosadonutsaz.com/"
   },
   {
@@ -52,14 +52,14 @@
     "address": "12425 W. Bell Rd Building A, Suite 128 Surprise, AZ. 85378",
     "phone": "(623) 217-2948",
     "email": "info@aataxllc.com",
-    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/Chamber of Commerce/arringtonlogo.png",
+    "logo":"/Users/theranmeadows/Desktop/BYU-Idaho/Winter 2021/WDD 231/theranmeadows97.github.io/ChamberofCommerce/arringtonlogo.png",
     "website":"https://www.aataxllc.com/index.php"
   }
 ]
 
 document.getElementById("cards").innerHTML = `<h2> Companies (${directoy.length} results)</h2>`  */
 
-const requestURL = 'https://theranmeadows97.github.io/ChamberofCommerce/directory.json';
+const requestURL = 'https://theranmeadows97.github.io/ChamberofCommerce/directory-json.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
