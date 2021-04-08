@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="White Tank Mountain Commerce Home" content="The site is for the residents of the city of Waddell, Arizona">
+<meta name="Theran Meadows">
+
+<!-- Title-->
+<title>White Tank Mountain Commerce</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!-- STYLE SHEETS -->
+<link rel="shortcut icon" href="/mountains.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@600&family=Public+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@600&family=Crimson+Text&family=Public+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Unicase:wght@600&family=Crimson+Text&family=Public+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+<link href="normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="large.css" rel="stylesheet">
+
+
+</head>
+
+<!-- HEADER HERE -->
+<body>
+	<header>
+        <img src="Logo.jpg" alt="White Tank Mountain Commerce Logo">
+ <h1>White Tank Mountain Commerce</h1>
+        <h2>Where Business and Sunshine Come Together</h2>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<div class="nav-container">
+    <nav class="clearfix">
+        <button type="button" onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="city.html">City</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li> 
+            <li><a href="contact.html">Contact</a></li>    
+        </ul>
+    </nav>
+</div>
+
+    
+<!-- CONTENT HERE -->
+    <main class="join-body">
+        <h2 class="heading">Join Our Community!</h2>
+        <form method="GET" action="thanks.html">
+           <fieldset>
+             <legend>Your Information</legend>
+               <label class="user-info">First name*<input type="text" name="fullname" title="At least 5 letters are needed" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+               </label>
+               <label class="user-info">Last name*<input type="text" name="fullname" title="At least 5 letters are needed" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+               </label>
+                  <div class="title">Title</div>
+                    <label class="options" id="mr"><input type="radio" name="level" value="yes">
+                    <span class="options">Mr.</span>
+                    </label>
+ 
+                    <label class="options"><input type="radio" name="level" value="maybe">
+                    <span class="options">Mrs.</span>
+                    </label>
+ 
+                    <label class="options"><input type="radio" name="level" value="no">
+                    <span class="options">Prefer not to answer</span>
+                    </label>
+                    <div></div>
+               <label class="user-info">Cell phone*<input type="tel" name="phone" title="Please enter a valid 10 digit number" placeholder="123-456-7890">
+               </label>
+               <label class="user-info">Email*<input type="email" name="email" placeholder="name@email.com" required>
+               </label>  
+           </fieldset>
+   
+           <fieldset class="business-information">
+               <legend>Business Information</legend>
+                  <label class="user-info">Business name*<input type="text" name="businessname" title="At least 5 letters are needed" pattern="^[a-zA-Z\s\-\.]{5,}$" required>
+                  </label>
+                  <label class="user-info">Business address<input type="text" name="businaessname" title="At least 5 letters are needed" pattern="^[a-zA-Z\s\-\.]{5,}$">
+                  </label>
+                  <label class="user-info">Buisiness website<input type="tel" name="businesswebsite" title="Please enter a valid website" placeholder="www.yourbusiness.com">
+                  </label>
+                  <label class="top">Business description: </label>
+                   <textarea name="businessdescription" id="businessdescription">
+                   </textarea>
+            </fieldset>
+   
+             <fieldset>
+               <legend>Membership Selection</legend>
+                 <div>Please select one of the following memberships<br>See membership key below.</div>
+                   <label class="options"><input type="radio" name="memberships" value="non-profit">
+                   <span class="options">Non-profit: $100</span>
+                   </label>
+
+                   <label class="options"><input type="radio" name="memberships" value="bronze">
+                   <span class="options">Bronze: $200</span>
+                   </label>
+
+                   <label class="options"><input type="radio" name="memberships" value="silver">
+                   <span class="options">Silver: $400</span>
+                   </label>
+
+                   <label class="options"><input type="radio" name="memberships" value="gold">
+                    <span class="options">Gold: $1000</span>
+                    </label>
+             </fieldset>
+
+             <table>
+                <thead>
+                    <tr>
+                        <th class="title" colspan="5" >Membership Key</th>
+                    </tr>
+                    <tr class="subtitles">
+                        <th>Benefit</th>
+                        <th>Non-profit</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                    <tr class="level-one">
+                        <td>Weekely News Letters</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr class="level-two">
+                        <td>Invitation to annual business banquet</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr class="level-three">
+                        <td>Free admission into all networking classes</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr class="level-four">
+                        <td> Free admission and advertisments for any 2 community events</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr class="level-five">
+                        <td>Free addmission and advertisments at all community events</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" ></td>
+                        </tr>
+                    </tfoot>
+            </table>
+   
+             <input class="Sbtn" type="submit" value="Join the Membership!">
+           </form> 
+
+           
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <div>
+            <h4>Contact</h4>
+            <p>Mailing Address<br> 
+                Surprise Regional Chamber of Commerce <br> ​
+                15331 W. Bell Rd #212<br> 
+                Surprise, AZ 85374<br> 
+                623-583-0692
+            </p>
+            <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="/theranmeadows97.github.io/lesson10/images/facebook.png" height="50" alt="Facebook icon"></a>
+            <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="/theranmeadows97.github.io/lesson10/images/Youtube.png" height="50" alt="youtube icon"></a>
+        </div>
+        <p>&copy; 2021 | Theran Meadows | Wadell, Arizona | <a href="https://www.byui.edu/">BYUI Online Learning</a> </p>
+        <p>Date:<span id="currentDate"></span><span id="currentYear" ></span> </p>
+        
+        
+    </footer>
+<!-- JAVASCRIPT-->
+<script src="toggleMenu.js"></script>
+<script src="date.js"></script>
+</body>
+</html>

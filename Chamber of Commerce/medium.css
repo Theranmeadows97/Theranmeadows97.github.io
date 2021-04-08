@@ -1,0 +1,140 @@
+@media only screen and (min-width: 35em){
+
+    header img{
+        float: left;
+        padding-left: 15px;
+        padding-top:15px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul{
+        text-align:center;
+        position: relative;
+        display: inline-block;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+
+    .banner-container{
+        position: relative;
+    }
+
+    .banner-container img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner-quote{
+        display: block;
+        position: absolute;
+        top: 0px; 
+        left: 0; 
+        width: 100%; 
+    }
+
+    .banner-container h2{
+        font-family: cursive;
+        font-size: 2rem;
+        color: #1F2F16;
+        text-shadow: 2px 0 0 rgb(249, 187, 96);
+    }
+
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .three-businesses-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .events-weather-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*-------------THE CITY-------------- */
+
+    .welcome-container{
+        display: grid;
+        grid-template-columns: 10px 1fr 10px;
+        justify-content: center;
+        grid-gap:0;
+    }
+    
+    .welcome-container p{
+        grid-column: 2/3;
+    }
+    
+    .welcome-container img{
+        grid-column: 2/3;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    
+    .do-container{
+        display: grid;
+        grid-template-columns:10px 1fr 10px;
+        grid-template-rows: 3rem 1fr .25fr 1fr;
+    }
+
+    .do-title{
+        grid-column:2/3;
+        margin-top: 10px;
+    }
+    
+    .do-container img:nth-child(1){
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .do-container p{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        
+    }
+    
+    .do-container img:nth-child(4){
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin-bottom: 10px;
+    }
+
+    .government-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .government-title{
+        margin-left: 10px;
+    }
+
+    .contact-footer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #businessdescription{
+        min-width: 400px;
+    }
+
+}
