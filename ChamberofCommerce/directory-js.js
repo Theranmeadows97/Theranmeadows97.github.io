@@ -9,18 +9,18 @@ fetch(requestURL)
 
     for (let i = 0; i < directory.length; i++ ) {
       let card = document.createElement('section');
-      let name = document.createElement('h2');
-      let address = document.createElement('p');
-      let phone = document.createElement('p');
-      let email = document.createElement('p');
+      let name = document.createElement('span');
+      let address = document.createElement('span');
+      let phone = document.createElement('span');
+      let email = document.createElement('span');
       let logo = document.createElement('img');
       let website = document.createElement('p');
 
-      name.textContent = directory[i].name + (i+1);
-      address.innerHTML = "address: " + directory[i].address;
-      phone.innerHTML = "phone: " + directory[i].phone;
-      email.innerHTML = "email: " + directory[i].email;
-      website.innerHTML = "website: " + directory[i].website;
+      name.textContent = directory[i].name;
+      address.innerHTML = "<br><strong>Address:</strong> <br>" + directory[i].address;
+      phone.innerHTML = "<br><strong>Phone: </strong>" + directory[i].phone;
+      email.innerHTML = "<br><strong>Email: </strong>" + directory[i].email;
+      website.innerHTML = "<strong>Website: </strong>" + directory[i].website;
       logo.setAttribute('src', directory[i].logo);
 
       card.appendChild(name);

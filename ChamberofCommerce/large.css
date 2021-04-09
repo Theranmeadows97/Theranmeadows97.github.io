@@ -28,7 +28,7 @@
     .three-businesses-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+
     }
 
     /*-------------THE CITY-------------- */
@@ -89,5 +89,9 @@
 
     #businessdescription{
         min-width: 825px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -37,7 +37,7 @@
 <!-- HEADER HERE -->
 <body>
 	<header>
-        <img src="Logo.jpg" alt="White Tank Mountain Commerce Logo">
+        <a href="index.html"> <img src="Logo.jpg" alt="White Tank Mountain Commerce Logo"></a>
  <h1>White Tank Mountain Commerce</h1>
         <h2>Where Business and Sunshine Come Together</h2>
     </header>
@@ -133,6 +133,39 @@
 
             <div class="weather-container">
                 <h2>3-Day Forecast</h2>
+                <div id="weekly-forecast">
+
+                    <div class="weekdays">
+                        <div id="day-1"></div>
+                        <img src="#" alt="" id="img1">
+                        <div id="temp-1"></div>
+                    </div>
+            
+                    <div class="weekdays">
+                        <div id="day-2"></div>
+                        <img src="#" alt="" id="img2">
+                        <div id="temp-2"></div>
+                    </div>
+            
+                    <div class="weekdays">
+                        <div id="day-3"></div>
+                        <img src="#" alt="" id="img3">
+                        <div id="temp-3"></div>
+                    </div>
+            
+                    <div class="weekdays">
+                        <div id="day-4"></div>
+                        <img src="#" alt="" id="img4">
+                        <div id="temp-4"></div>
+                    </div>
+                </div>
+                <section class="summary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="currently"></span></p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                   <script src="weather-data.js"></script>
+          
+                 </section>
 
             </div>
         </div>
@@ -159,5 +192,8 @@
 <!-- JAVASCRIPT-->
 <script src="toggleMenu.js"></script>
 <script src="date.js"></script>
+<script src="weather.js"></script>
+<script src="weather-data.js"></script>
+
 </body>
 </html>

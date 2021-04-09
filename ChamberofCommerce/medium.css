@@ -71,6 +71,8 @@
         grid-template-columns: 1fr 1fr;
     }
 
+
+
     /*-------------THE CITY-------------- */
 
     .welcome-container{
@@ -135,6 +137,11 @@
     }
     #businessdescription{
         min-width: 400px;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 }

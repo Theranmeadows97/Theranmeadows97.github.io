@@ -36,7 +36,6 @@
 
 <!-- HEADER HERE -->
 <body>
-    
 	<header>
         <a href="index.html"> <img src="Logo.jpg" alt="White Tank Mountain Commerce Logo"></a>
  <h1>White Tank Mountain Commerce</h1>
@@ -49,27 +48,21 @@
     <nav class="clearfix">
         <button type="button" onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li ><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li ><a href="city.html">City</a></li>
-            <li class="active"><a href="directory.html">Directory</a></li>
-            <li ><a href="join.html">Join</a></li> 
-            <li ><a href="contact.html">Contact</a></li>    
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li> 
+            <li><a href="contact.html">Contact</a></li>    
         </ul>
     </nav>
 </div>
 
     
 <!-- CONTENT HERE -->
-    <main class="directory-main">
-        <p>These are some of the options of local businesses here in Surprise!
-        </p>
-        <p>Click a button for list view or grid view</p>
-        <button class="mybtn" onclick="Button(0); List()">List</button>
-        <button class="mybtn Active" onclick="Button(1); Grid()">Grid</button>
-
-        <div class="cards">
-
-        </div>
+    <main class="thankyou">
+   <p>Thank you for joining us! We will recieve your information and contact you through you email.
+       Thank you for you time!
+   </p>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -93,8 +86,8 @@
 <!-- JAVASCRIPT-->
 <script src="toggleMenu.js"></script>
 <script src="date.js"></script>
-<script type="text/javascritp" src="directory-json.json"></script>
-<script type="text/javascript" src="directory-js.js"></script>
-<script src="gridandlist.js"></script>
+<script src="weather.js"></script>
+<script src="weather-data.js"></script>
+
 </body>
 </html>
