@@ -1,4 +1,4 @@
-const requestURL = 'https://theranmeadows97.github.io/ChamberofCommerce/directory-json.json';
+const requestURL = 'https://theranmeadows97.github.io/whitetankmountaincommerce/directory-json.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
