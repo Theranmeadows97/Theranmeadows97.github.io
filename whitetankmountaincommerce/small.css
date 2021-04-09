@@ -6,30 +6,27 @@ header{
     color:#1F2F16;
     padding-bottom: 20px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 header h1, header h2{
-    font-size: 5rem;
+    font-size: 5em;
     margin:0 auto;
     font-family: 'Cormorant Unicase', serif;
-    padding: 0 auto;
 }
 
 header h2{
-    font-size: 2.5rem;
+    font-size: 2.5em;
     margin:0 auto;
 }
 
 header img{
-    border-radius:3pc;
+    border-radius:3pc 3pc;
     height: 130px;
 }
 
 /*----------- NAVIGATION --------------*/
 nav{
-    font-size: 2rem;
+    font-size: 2em;
     background-color: #9BC1BC;
     font-family: 'Public Sans', sans-serif;
 }
@@ -38,23 +35,19 @@ nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    align-items: center;
-    justify-content: center;
     width: 100%;
 }
 
 nav ul li a{
     display: block;
-    padding: .8rem;
+    padding: .8em;
     text-decoration: none;
     color: #1F2F16;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
     text-align: center;
     background-color: #9BC1BC;
 }
 
 nav ul li a:active{
-    background-color: rgba(0, 0, 0, 0.2);
     color:#F4F1BB;
 }
 nav ul li.active a{
@@ -72,7 +65,6 @@ nav ul.hide{
 
 nav button{
     background-color: #9BC1BC;
-    justify-content: center;
 }
 .clearfix:after{
     content: "";
@@ -99,21 +91,19 @@ body{
 }
 
 .about-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
     border: dotted 5px black;
+    border-radius: 10px;
     margin:10px;
 }
 
 .about-container h2{
     font-family: 'Public Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .about-container p{
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .about-container img{
@@ -129,12 +119,12 @@ body{
 
 .action-button form input{
     border: solid 1px black;
-    border-radius: 4px;
+    border-radius: 4px 4px;
     width: 100%;
     max-width: 200px;
     height:50px;
     font-family: 'Crimson Text', serif;
-    font-size: 2rem;
+    font-size: 1em;
 }
 
 .action-button input:hover{
@@ -143,41 +133,36 @@ body{
 
 
 .three-businesses-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .three-businesses-container h3{
     font-family: 'Public Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .business{
     height: auto;
     border-radius: 10px;
     border: dotted 5px black;
+    margin: 10px;
 }
 
 .business img{
     border-radius: 10px;
-
 }
 
 .events-weather-container{
-    display: grid;
-    grid-template-columns: 1fr;
     margin-top: 30px;
     border: dotted 5px black;
     background-color: #9BC1BC;
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Public Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .events-container img{
@@ -190,7 +175,7 @@ body{
 
 .events-container p, .events-container h3, .events-container h4{
     font-family: 'Amatic SC', cursive;
-    font-size: 3rem;
+    font-size: 2em;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -206,10 +191,6 @@ body{
 }
 
 .forecast, .weekdays {
-  border: 5px dotted black;
-}
-
-.weekdays {
   border: 5px solid black;
 }
 
@@ -241,7 +222,7 @@ footer{
 }
 
 footer h4{
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Public Sans', sans-serif
@@ -249,7 +230,7 @@ footer h4{
 
 footer p{
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin-top: 10px;
 
 }
@@ -267,14 +248,14 @@ footer p{
 .welcome-container p{
     grid-column: 2/3;
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 26pt;
 }
 
 .welcome-container img{
     grid-column: 2/3;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -291,33 +272,20 @@ footer p{
 
 .do-title{
     font-family: 'Public Sans', sans-serif;
-    font-size: 3rem;
-    grid-column:2/3;
+    font-size: 3em;
     margin:0;
     padding: 0;
 }
 
 .do-container img{
     width:100%;
-    border-radius: 10px;
-}
-
-.do-container img:nth-child(1){
-    grid-column: 2/3;
-        grid-row: 2/3;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .do-container p{
-    grid-column: 2/3;
-        grid-row: 3/4;
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 26pt;
-}
-
-.do-container img:nth-child(4){
-    grid-column: 1/2;
-    grid-row: 1/3;
 }
 
 .history-container{
@@ -326,48 +294,45 @@ footer p{
 }
 
 .history-container img{
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .history-container h2{
     font-family: 'Public Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .history-container p{
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .history-container .quote{
     font-family: 'Crimson Text', serif;
-    font-size: 2rem;
+    font-size: 2em;
     font-style: italic;
 }
 
 .government-container{
-    display: grid;
-    grid-template-columns: 1fr;
     border: dotted 5px black;
-    align-items: center;
     margin: 10px;
 }
 
 .government-title{
     font-family: 'Public Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .government-container h4{
     font-family: 'Public Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
 }
 
 .government-container p{
     font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
@@ -375,7 +340,7 @@ footer p{
 
 .government-container img{
     width: 70%;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 10px;
 }
 
@@ -398,13 +363,13 @@ main .heading{
 
 form {
     color: #1F2F16;
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   
   form fieldset {
     margin: 3em;
     border: 5px dotted black;
-    border-radius: 10px;
+    border-radius: 10px 10px;
     padding: 2em;
   }
   
@@ -431,7 +396,7 @@ form {
   form label.top input, form label.user-info input {
     display: block;
     border: solid 1px black;
-    border-radius: 10px;
+    border-radius: 10px 10px;
     padding: 0.5em;
     width: 100%;
     background-color: white;
@@ -450,7 +415,7 @@ form {
   
   form label.storm {
     display: block;
-    padding: .75rem 0;
+    padding: .75em 0;
   }
   
   form input.Sbtn {
@@ -472,7 +437,6 @@ form {
   table {
     margin: 0 2em 5%;
     margin-top: 2em;
-    box-shadow: 8px 8px 10px #1F2F16;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
     text-align: center;
@@ -523,32 +487,26 @@ font-family: 'Amatic SC', cursive; events */
     text-align: left;
     font-family: 'Crimson Text', serif;
     border: 5px dotted black;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
 
 }
 .board h2{
     text-align: center;
     font-family: 'Public Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2em;
 }
 
 .board p, .board h3, .board ul li{
     margin: 10px;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 #businessdescription{
     max-width: 500px;
 }
 
-
-.contact-footer-container{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 .thankyou{
     font-family: 'Crimson Text', serif;
-    font-size: 3rem;
+    font-size: 2em;
 }
 
 /*--------DIRECTORY----------*/
@@ -556,7 +514,6 @@ font-family: 'Amatic SC', cursive; events */
                 /*--------LIST-VIEW----------*/
  .directory-main{
     margin:  15px auto;
-    align-items: center;
     font-family: 'Crimson Text', serif;
     font-size: 25px;
 }
@@ -567,7 +524,7 @@ font-family: 'Amatic SC', cursive; events */
     font-family: 'Public Sans', sans-serif;
     font-size: 30px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 10px 10px;
 
     
 }
@@ -576,26 +533,24 @@ font-family: 'Amatic SC', cursive; events */
     background-color: rgb(181, 181, 181);
 }
 .cards{
-    display: grid;
-    grid-template-columns: 1fr;
     grid-gap:15px;
     width: 80%;
     margin: 20px auto;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
-    font-size: 1rem;
+    font-size: .7em;
 }
 
 .cards span:nth-child(1){
 text-align: center;
 font-family: 'Public Sans', sans-serif;
-font-size: 2rem;
+font-size: 2em;
 }
 
 .cards section{
     background-color: #7fb9c2;
     border: 5px dotted black;
-    border-radius: 10px;
+    border-radius: 10px 10px;
 }
 .cards img{
     margin: 20px auto;
